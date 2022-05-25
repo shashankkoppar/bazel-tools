@@ -121,7 +121,7 @@ _multirun = rule(
             executable = True,
         ),
     },
-    executable = True,
+    test = True,
 )
 
 def multirun(**kwargs):
